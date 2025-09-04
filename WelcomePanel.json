@@ -1,331 +1,340 @@
 {
-  "Main Settings": {
-    "Open when player joins": true,
-    "Open once per wipe": false,
-    "Open at tab": 1,
-    "Block movement when browsing panel": true,
-    "Enable text tags": true,
-    "Server Title": "<size=65>[TLOR Group]</size>",
-    "Server Logo": "https://i.postimg.cc/FKggXPtH/image.png",
-    "Selected button color": "0.757 0.259 0.161 1.00",
-    "Base Command": "info",
-    "Additional Commands": {
-      "rules": 2,
-      "help": 3
-    }
-  },
-  "Text Tabs": [
-    {
-      "Name": "<size=24>Добро пожаловать</size>",
-      "Icon": "",
-      "Font Size": 12,
-      "Font Color": "1 1 1 1",
-      "Font Outline Color": "0 0 0 1",
-      "Font Outline Thickness": "0.5",
-      "Font": "robotocondensed-bold.ttf",
-      "Text Background Image": "",
-      "Text Alignment": 3,
-      "Text Lines": [
-        [
-          "<size=16>Приветствуем тебя в мире <color=#c14229>[TLOR]</color> — The Last of Rust!</size>",
-          "<size=14>Наши сервера работают 24/7 с активной администрацией и защитой от читеров.</size>",
-          "<size=14>Поддержи проект через Discord или покупку привилегий.</size>",
-          "<size=14>Discord: <color=#c14229>https://discord.gg/QTQ77c8g8t</color></size>",
-          "<size=14>Магазин: <color=#c14229>https://ruthelastofrust.gamestores.app/</color></size>"
-        ]
-      ],
-      "Addon (plugin name)": ""
+    "Main Settings": {
+        "Open when player joins": true,
+        "Open once per wipe": false,
+        "Open at tab": 1,
+        "Block movement when browsing panel": true,
+        "Enable text tags": true,
+        "Server Title": "<size=65>[TLOR Group]</size>",
+        "Server Logo": "https://i.postimg.cc/FKggXPtH/image.png",
+        "Selected button color": "0.757 0.259 0.161 1.00",
+        "Base Command": "info",
+        "Additional Commands": {
+            "rules": 2,
+            "help": 3
+        }
     },
-    {
-      "Name": "<size=24>Правила сервера</size>",
-      "Icon": "",
-      "Font Size": 12,
-      "Font Color": "1 1 1 1",
-      "Font Outline Color": "0 0 0 1",
-      "Font Outline Thickness": "0.5",
-      "Font": "robotocondensed-regular.ttf",
-      "Text Background Image": "",
-      "Text Alignment": 4,
-      "Text Lines": [
-        [
-          "🛡 <size=14>Основные правила поведения:</size>",
-          "• Уважай других игроков и админов",
-          "• Запрещён мат, оскорбления, провокации",
-          "• Читы/макросы — бан без предупреждения",
-          "• Запрещён баг-юз и абьюз игровых механик",
-          "",
-          "<size=13><color=#c14229>Нарушение приведёт к перманентному бану.</color></size>"
-        ]
-      ],
-      "Addon (plugin name)": ""
+    "Text Tabs": [
+        {
+            "Name": "<size=24>Добро пожаловать</size>",
+            "Icon": "",
+            "Font Size": 12,
+            "Font Color": "1 1 1 1",
+            "Font Outline Color": "0 0 0 1",
+            "Font Outline Thickness": "0.5",
+            "Font": "robotocondensed-bold.ttf",
+            "Text Background Image": "",
+            "Text Alignment": 3,
+            "Text Lines": [
+                [
+                    "<size=16>Приветствуем тебя в мире <color=#c14229>[TLOR]</color> — The Last of Rust!</size>",
+                    "<size=14>Наши сервера работают 24/7 с активной администрацией и защитой от читеров.</size>",
+                    "<size=14>Поддержи проект через Discord или покупку привилегий.</size>",
+                    "<size=14>Discord: <color=#c14229>https://discord.gg/QTQ77c8g8t</color></size>",
+                    "<size=14>Магазин: <color=#c14229>https://ruthelastofrust.gamestores.app/</color></size>"
+                ]
+            ],
+            "Addon (plugin name)": ""
+        },
+        {
+            "Name": "<size=24>Правила сервера</size>",
+            "Icon": "",
+            "Font Size": 12,
+            "Font Color": "1 1 1 1",
+            "Font Outline Color": "0 0 0 1",
+            "Font Outline Thickness": "0.5",
+            "Font": "robotocondensed-regular.ttf",
+            "Text Background Image": "",
+            "Text Alignment": 4,
+            "Text Lines": [
+                [
+                    "🛡 <size=14>Основные правила поведения:</size>",
+                    "• Уважай других игроков и админов",
+                    "• Запрещён мат, оскорбления, провокации",
+                    "• Читы/макросы — бан без предупреждения",
+                    "• Запрещён баг-юз и абьюз игровых механик",
+                    "",
+                    "<size=13><color=#c14229>Нарушение приведёт к перманентному бану.</color></size>"
+                ]
+            ],
+            "Addon (plugin name)": ""
+        },
+        {
+            "Name": "<size=24>Цикл вайпов</size>",
+            "Icon": "",
+            "Font Size": 12,
+            "Font Color": "1 1 1 1",
+            "Font Outline Color": "0 0 0 1",
+            "Font Outline Thickness": "0.5",
+            "Font": "robotocondensed-regular.ttf",
+            "Text Background Image": "",
+            "Text Alignment": 3,
+            "Text Lines": [
+                [
+                    "♻ <size=14>Обновления сервера:</size>",
+                    "• Map Wipe — каждый четверг в 14:00 МСК",
+                    "• Full Wipe (сброс чертежей) — раз в 2 недели",
+                    "• Следующий вайп — следи за Discord!",
+                    "",
+                    "<size=13>Все вайпы по расписанию Facepunch</size>"
+                ]
+            ],
+            "Addon (plugin name)": ""
+        },
+        {
+            "Name": "<size=24>Группа ВКонтакте</size>",
+            "Icon": "",
+            "Font Size": 12,
+            "Font Color": "1 1 1 1",
+            "Font Outline Color": "0 0 0 1",
+            "Font Outline Thickness": "0.5",
+            "Font": "robotocondensed-regular.ttf",
+            "Text Background Image": "https://i.imgur.com/92GF7hX.png",
+            "Text Alignment": 0,
+            "Text Lines": [
+                [
+                    "🔗 <size=14>Ссылка на группу ВКонтакте появится позже.</size>",
+                    "<size=13>Следите за новостями в Discord и на сервере.</size>"
+                ]
+            ],
+            "Addon (plugin name)": ""
+        },
+        {
+            "Name": "<size=19>  МАГАЗИН</size>",
+            "Icon": "https://rustplugins.net/products/welcomepanellite/4/shop_button.png",
+            "Font Size": 12,
+            "Font Color": "1 1 1 1",
+            "Font Outline Color": "0 0 0 1",
+            "Font Outline Thickness": "0.5",
+            "Font": "robotocondensed-regular.ttf",
+            "Text Background Image": "https://i.imgur.com/Rzpd6wf.png",
+            "Text Alignment": 0,
+            "Text Lines": [
+                [
+                    "<size=45><color=#c14229><b>Магазин сервера</b></color></size>",
+                    "https://ruthelastofrust.gamestores.app/",
+                    "Чтоб  воспользоваться магазином, отсканируйте QR-код или используйте ссылку. Для второго варианта - закройте данную информационную панель, откройте чат - появится курсор, нажмите на иконку в левом верхнем углу - откроется панель с онлайном и стандартными ивентами, нажмите на иконку ещё раз и ниже появится иконка Магазина. Нажмите на неё - откроется небольшая панель. Внизу которой ссылка. Нажмите на неё, затем сочетание клавиш Ctrl+C. Далее вставьте ссылку в браузер и авторизуйтесь в магазине через Steam.",
+                    "После авторизации на сайте, пополните счет через банковскую карту или Qiwi. Купите необходимые предметы и заберите на сервере. Сделать это можно через кнопку корзины внизу экрана или вбив команду /store в чате."
+                ]
+            ],
+            "Addon (plugin name)": ""
+        },
+        {
+            "Name": "<size=19>DISCORD</size>",
+            "Icon": "https://rustplugins.net/products/welcomepanellite/4/discord_button.png",
+            "Font Size": 12,
+            "Font Color": "1 1 1 1",
+            "Font Outline Color": "0 0 0 1",
+            "Font Outline Thickness": "1",
+            "Font": "robotocondensed-regular.ttf",
+            "Text Background Image": "https://i.imgur.com/vJ6YqXA.png",
+            "Text Alignment": 0,
+            "Text Lines": [
+                [
+                    "<size=25>discord.gg/<color=#c14229><b><size=22>UZpeCTC3Um</size></b></color></size>",
+                    "Приглашаем в наш Discord сервер для общения и получения помощи. Есть уведомления об онлайне игроков и сервера. Чат Discord связан с чатом Rust. Отсканируйте QR-код или используйте ссылку. Для второго варианта - закройте данную информационную панель, откройте чат - появится курсор, нажмите на иконку в левом верхнем углу - откроется панель с онлайном и стандартными ивентами, нажмите на иконку ещё раз и ниже появится иконка Discord. Нажмите на неё - откроется небольшая панель. Внизу которой ссылка. Нажмите на неё, затем сочетание клавиш Ctrl+C. Далее вставьте ссылку в браузер."
+                ]
+            ],
+            "Addon (plugin name)": ""
+        }
+    ],
+    "Base Ui Elements": {
+        "background": {
+            "Color": "0.114 0.110 0.102 0.993",
+            "Material": "assets/content/ui/uibackgroundblur-ingamemenu.mat",
+            "Image": "",
+            "Anchor Min": "0 0",
+            "Anchor Max": "1 1",
+            "Offset Min": "0 0",
+            "Offset Max": "0 0",
+            "Fade": 0.2,
+            "Text (not for panels)": null,
+            "Text Alignment (not for panels)": 4,
+            "Text Font (not for panels)": null
+        },
+        "offset_container": {
+            "Color": "0 0 0 0",
+            "Material": "assets/icons/iconmaterial.mat",
+            "Image": "https://i.postimg.cc/1zFWZjCX/Rust2.png",
+            "Anchor Min": "0.5 0.5",
+            "Anchor Max": "0.5 0.5",
+            "Offset Min": "-680 -360",
+            "Offset Max": "680 360",
+            "Fade": 0.2,
+            "Text (not for panels)": null,
+            "Text Alignment (not for panels)": 4,
+            "Text Font (not for panels)": null
+        },
+        "main": {
+            "Color": "0 0 0 0",
+            "Material": "assets/icons/iconmaterial.mat",
+            "Image": "",
+            "Anchor Min": "0.22 0",
+            "Anchor Max": "1 1",
+            "Offset Min": "0 0",
+            "Offset Max": "0 0",
+            "Fade": 0.2,
+            "Text (not for panels)": null,
+            "Text Alignment (not for panels)": 4,
+            "Text Font (not for panels)": null
+        },
+        "side": {
+            "Color": "0 0 0 0",
+            "Material": "assets/icons/iconmaterial.mat",
+            "Image": "",
+            "Anchor Min": "0 0",
+            "Anchor Max": "0.22 1",
+            "Offset Min": "0 0",
+            "Offset Max": "0 0",
+            "Fade": 0.1,
+            "Text (not for panels)": null,
+            "Text Alignment (not for panels)": 4,
+            "Text Font (not for panels)": null
+        },
+        "content": {
+            "Color": "0 0 0 0.0",
+            "Material": "assets/icons/iconmaterial.mat",
+            "Image": "",
+            "Anchor Min": "0.42 0.095",
+            "Anchor Max": "0.94 0.748",
+            "Offset Min": "0 0",
+            "Offset Max": "0 0",
+            "Fade": 0.0,
+            "Text (not for panels)": null,
+            "Text Alignment (not for panels)": 4,
+            "Text Font (not for panels)": null
+        },
+        "title": {
+            "Color": "0 0 0 0",
+            "Material": "assets/icons/iconmaterial.mat",
+            "Image": "",
+            "Anchor Min": "0.104 0.849",
+            "Anchor Max": "0.453 0.955",
+            "Offset Min": "0 0",
+            "Offset Max": "0 0",
+            "Fade": 0.2,
+            "Text (not for panels)": null,
+            "Text Alignment (not for panels)": 3,
+            "Text Font (not for panels)": "robotocondensed-regular.ttf"
+        },
+        "logo": {
+            "Color": "0 0 0 0",
+            "Material": "assets/icons/iconmaterial.mat",
+            "Image": null,
+            "Anchor Min": "0.040 0.859",
+            "Anchor Max": "0.089 0.946",
+            "Offset Min": "0 0",
+            "Offset Max": "0 0",
+            "Fade": 0.2,
+            "Text (not for panels)": null,
+            "Text Alignment (not for panels)": 4,
+            "Text Font (not for panels)": null
+        },
+        "close_button": {
+            "Color": "0 0 0 0.3",
+            "Material": "assets/content/ui/uibackgroundblur-ingamemenu.mat",
+            "Image": "",
+            "Anchor Min": "0.479 0.008",
+            "Anchor Max": "0.621 0.088",
+            "Offset Min": "0 0",
+            "Offset Max": "0 0",
+            "Fade": 0.2,
+            "Text (not for panels)": "CLOSE",
+            "Text Alignment (not for panels)": 4,
+            "Text Font (not for panels)": "robotocondensed-bold.ttf"
+        },
+        "next_button": {
+            "Color": "0 0 0 0.4",
+            "Material": "assets/icons/iconmaterial.mat",
+            "Image": "https://rustplugins.net/products/welcomepanellite/1/next.png",
+            "Anchor Min": "0.97 0.005",
+            "Anchor Max": "1 0.053",
+            "Offset Min": "0 0",
+            "Offset Max": "0 0",
+            "Fade": 0.0,
+            "Text (not for panels)": "",
+            "Text Alignment (not for panels)": 4,
+            "Text Font (not for panels)": "robotocondensed-bold.ttf"
+        },
+        "back_button": {
+            "Color": "0 0 0 0.4",
+            "Material": "assets/icons/iconmaterial.mat",
+            "Image": "https://rustplugins.net/products/welcomepanellite/1/back.png",
+            "Anchor Min": "0.935 0.005",
+            "Anchor Max": "0.965 0.053",
+            "Offset Min": "0 0",
+            "Offset Max": "0 0",
+            "Fade": 0.0,
+            "Text (not for panels)": "",
+            "Text Alignment (not for panels)": 4,
+            "Text Font (not for panels)": "robotocondensed-bold.ttf"
+        }
     },
-    {
-      "Name": "<size=24>Цикл вайпов</size>",
-      "Icon": "",
-      "Font Size": 12,
-      "Font Color": "1 1 1 1",
-      "Font Outline Color": "0 0 0 1",
-      "Font Outline Thickness": "0.5",
-      "Font": "robotocondensed-regular.ttf",
-      "Text Background Image": "",
-      "Text Alignment": 3,
-      "Text Lines": [
-        [
-          "♻ <size=14>Обновления сервера:</size>",
-          "• Map Wipe — каждый четверг в 14:00 МСК",
-          "• Full Wipe (сброс чертежей) — раз в 2 недели",
-          "• Следующий вайп — следи за Discord!",
-          "",
-          "<size=13>Все вайпы по расписанию Facepunch</size>"
-        ]
-      ],
-      "Addon (plugin name)": ""
-    },
-    {
-      "Name": "<size=24>Группа ВКонтакте</size>",
-      "Icon": "",
-      "Font Size": 12,
-      "Font Color": "1 1 1 1",
-      "Font Outline Color": "0 0 0 1",
-      "Font Outline Thickness": "0.5",
-      "Font": "robotocondensed-regular.ttf",
-      "Text Background Image": "https://i.imgur.com/92GF7hX.png",
-      "Text Alignment": 0,
-      "Text Lines": [
-        [
-          "🔗 <size=14>Ссылка на группу ВКонтакте появится позже.</size>",
-          "<size=13>Следите за новостями в Discord и на сервере.</size>"
-        ]
-      ],
-      "Addon (plugin name)": ""
-    },
-    {
-      "Name": "<size=19>  МАГАЗИН</size>",
-      "Icon": "https://rustplugins.net/products/welcomepanellite/4/shop_button.png",
-      "Font Size": 12,
-      "Font Color": "1 1 1 1",
-      "Font Outline Color": "0 0 0 1",
-      "Font Outline Thickness": "0.5",
-      "Font": "robotocondensed-regular.ttf",
-      "Text Background Image": "https://i.imgur.com/Rzpd6wf.png",
-      "Text Alignment": 0,
-      "Text Lines": [
-        [
-          "<size=45><color=#c14229><b>Магазин сервера</b></color></size>",
-          "https://ruthelastofrust.gamestores.app/",
-          "Чтоб  воспользоваться магазином, отсканируйте QR-код или используйте ссылку. Для второго варианта - закройте данную информационную панель, откройте чат - появится курсор, нажмите на иконку в левом верхнем углу - откроется панель с онлайном и стандартными ивентами, нажмите на иконку ещё раз и ниже появится иконка Магазина. Нажмите на неё - откроется небольшая панель. Внизу которой ссылка. Нажмите на неё, затем сочетание клавиш Ctrl+C. Далее вставьте ссылку в браузер и авторизуйтесь в магазине через Steam.",
-          "После авторизации на сайте, пополните счет через банковскую карту или Qiwi. Купите необходимые предметы и заберите на сервере. Сделать это можно через кнопку корзины внизу экрана или вбив команду /store в чате."
-        ]
-      ],
-      "Addon (plugin name)": ""
-    },
-    {
-      "Name": "<size=19>DISCORD</size>",
-      "Icon": "https://rustplugins.net/products/welcomepanellite/4/discord_button.png",
-      "Font Size": 12,
-      "Font Color": "1 1 1 1",
-      "Font Outline Color": "0 0 0 1",
-      "Font Outline Thickness": "1",
-      "Font": "robotocondensed-regular.ttf",
-      "Text Background Image": "https://i.imgur.com/vJ6YqXA.png",
-      "Text Alignment": 0,
-      "Text Lines": [
-        [
-          "<size=25>discord.gg/<color=#c14229><b><size=22>UZpeCTC3Um</size></b></color></size>",
-          "Приглашаем в наш Discord сервер для общения и получения помощи. Есть уведомления об онлайне игроков и сервера. Чат Discord связан с чатом Rust. Отсканируйте QR-код или используйте ссылку. Для второго варианта - закройте данную информационную панель, откройте чат - появится курсор, нажмите на иконку в левом верхнем углу - откроется панель с онлайном и стандартными ивентами, нажмите на иконку ещё раз и ниже появится иконка Discord. Нажмите на неё - откроется небольшая панель. Внизу которой ссылка. Нажмите на неё, затем сочетание клавиш Ctrl+C. Далее вставьте ссылку в браузер."
-        ]
-      ],
-      "Addon (plugin name)": ""
-    }
-  ],
-  "Base Ui Elements": {
-    "background": {
-      "Color": "0.114 0.110 0.102 0.993",
-      "Material": "assets/content/ui/uibackgroundblur-ingamemenu.mat",
-      "Image": "",
-      "Anchor Min": "0 0",
-      "Anchor Max": "1 1",
-      "Offset Min": "0 0",
-      "Offset Max": "0 0",
-      "Fade": 0.2,
-      "Text (not for panels)": null,
-      "Text Alignment (not for panels)": 4,
-      "Text Font (not for panels)": null
-    },
-    "offset_container": {
-      "Color": "0 0 0 0",
-      "Material": "assets/icons/iconmaterial.mat",
-      "Image": "https://i.postimg.cc/1zFWZjCX/Rust2.png",
-      "Anchor Min": "0.5 0.5",
-      "Anchor Max": "0.5 0.5",
-      "Offset Min": "-680 -360",
-      "Offset Max": "680 360",
-      "Fade": 0.2,
-      "Text (not for panels)": null,
-      "Text Alignment (not for panels)": 4,
-      "Text Font (not for panels)": null
-    },
-    "main": {
-      "Color": "0 0 0 0",
-      "Material": "assets/icons/iconmaterial.mat",
-      "Image": "",
-      "Anchor Min": "0.22 0",
-      "Anchor Max": "1 1",
-      "Offset Min": "0 0",
-      "Offset Max": "0 0",
-      "Fade": 0.2,
-      "Text (not for panels)": null,
-      "Text Alignment (not for panels)": 4,
-      "Text Font (not for panels)": null
-    },
-    "side": {
-      "Color": "0 0 0 0",
-      "Material": "assets/icons/iconmaterial.mat",
-      "Image": "",
-      "Anchor Min": "0 0",
-      "Anchor Max": "0.22 1",
-      "Offset Min": "0 0",
-      "Offset Max": "0 0",
-      "Fade": 0.1,
-      "Text (not for panels)": null,
-      "Text Alignment (not for panels)": 4,
-      "Text Font (not for panels)": null
-    },
-    "content": {
-      "Color": "0 0 0 0.0",
-      "Material": "assets/icons/iconmaterial.mat",
-      "Image": "",
-      "Anchor Min": "0.42 0.095",
-      "Anchor Max": "0.94 0.748",
-      "Offset Min": "0 0",
-      "Offset Max": "0 0",
-      "Fade": 0.0,
-      "Text (not for panels)": null,
-      "Text Alignment (not for panels)": 4,
-      "Text Font (not for panels)": null
-    },
-    "title": {
-      "Color": "0 0 0 0",
-      "Material": "assets/icons/iconmaterial.mat",
-      "Image": "",
-      "Anchor Min": "0.104 0.849",
-      "Anchor Max": "0.453 0.955",
-      "Offset Min": "0 0",
-      "Offset Max": "0 0",
-      "Fade": 0.2,
-      "Text (not for panels)": null,
-      "Text Alignment (not for panels)": 3,
-      "Text Font (not for panels)": "robotocondensed-regular.ttf"
-    },
-    "logo": {
-      "Color": "0 0 0 0",
-      "Material": "assets/icons/iconmaterial.mat",
-      "Image": null,
-      "Anchor Min": "0.040 0.859",
-      "Anchor Max": "0.089 0.946",
-      "Offset Min": "0 0",
-      "Offset Max": "0 0",
-      "Fade": 0.2,
-      "Text (not for panels)": null,
-      "Text Alignment (not for panels)": 4,
-      "Text Font (not for panels)": null
-    },
-    "close_button": {
-      "Color": "0 0 0 0.3",
-      "Material": "assets/content/ui/uibackgroundblur-ingamemenu.mat",
-      "Image": "",
-      "Anchor Min": "0.479 0.008",
-      "Anchor Max": "0.621 0.088",
-      "Offset Min": "0 0",
-      "Offset Max": "0 0",
-      "Fade": 0.2,
-      "Text (not for panels)": "CLOSE",
-      "Text Alignment (not for panels)": 4,
-      "Text Font (not for panels)": "robotocondensed-bold.ttf"
-    },
-    "next_button": {
-      "Color": "0 0 0 0.4",
-      "Material": "assets/icons/iconmaterial.mat",
-      "Image": "https://rustplugins.net/products/welcomepanellite/1/next.png",
-      "Anchor Min": "0.97 0.005",
-      "Anchor Max": "1 0.053",
-      "Offset Min": "0 0",
-      "Offset Max": "0 0",
-      "Fade": 0.0,
-      "Text (not for panels)": "",
-      "Text Alignment (not for panels)": 4,
-      "Text Font (not for panels)": "robotocondensed-bold.ttf"
-    },
-    "back_button": {
-      "Color": "0 0 0 0.4",
-      "Material": "assets/icons/iconmaterial.mat",
-      "Image": "https://rustplugins.net/products/welcomepanellite/1/back.png",
-      "Anchor Min": "0.935 0.005",
-      "Anchor Max": "0.965 0.053",
-      "Offset Min": "0 0",
-      "Offset Max": "0 0",
-      "Fade": 0.0,
-      "Text (not for panels)": "",
-      "Text Alignment (not for panels)": 4,
-      "Text Font (not for panels)": "robotocondensed-bold.ttf"
-    }
-  },
-  "Tab Buttons": [
-    {
-      "Color": "0 0 0 0",
-      "Text Alignment": 4,
-      "Text Font": "robotocondensed-bold.ttf",
-      "Anchor Min": "0.4345 0.88",
-      "Anchor Max": "0.5195 0.938",
-      "Material": "assets/icons/iconmaterial.mat"
-    },
-    {
-      "Color": "0 0 0 0",
-      "Text Alignment": 4,
-      "Text Font": "robotocondensed-bold.ttf",
-      "Anchor Min": "0.5195 0.875",
-      "Anchor Max": "0.6245 0.942",
-      "Material": "assets/icons/iconmaterial.mat"
-    },
-    {
-      "Color": "0 0 0 0",
-      "Text Alignment": 4,
-      "Text Font": "robotocondensed-bold.ttf",
-      "Anchor Min": "0.6245 0.875",
-      "Anchor Max": "0.7295 0.942",
-      "Material": "assets/icons/iconmaterial.mat"
-    },
-    {
-      "Color": "0 0 0 0",
-      "Text Alignment": 4,
-      "Text Font": "robotocondensed-bold.ttf",
-      "Anchor Min": "0.7295 0.875",
-      "Anchor Max": "0.8395 0.942",
-      "Material": "assets/icons/iconmaterial.mat"
-    },
-    {
-      "Color": "0 0 0 0",
-      "Text Alignment": 4,
-      "Text Font": "robotocondensed-bold.ttf",
-      "Anchor Min": "0.8395 0.875",
-      "Anchor Max": "0.9395 0.942",
-      "Material": "assets/icons/iconmaterial.mat"
-    },
-    {
-      "Color": "0 0 0 0",
-      "Text Alignment": 4,
-      "Text Font": "robotocondensed-bold.ttf",
-      "Anchor Min": "0.041 0.103",
-      "Anchor Max": "0.183 0.179",
-      "Material": "assets/icons/iconmaterial.mat"
-    },
-    {
-      "Color": "0 0 0 0",
-      "Text Alignment": 4,
-      "Text Font": "robotocondensed-bold.ttf",
-      "Anchor Min": "0.201 0.103",
-      "Anchor Max": "0.343 0.179",
-      "Material": "assets/icons/iconmaterial.mat"
-    }
-  ]
+    "Tab Buttons": [
+        {
+            "Color": "0 0 0 0",
+            "Text Alignment": 4,
+            "Text Font": "robotocondensed-bold.ttf",
+            "Anchor Min": "0.4345 0.88",
+            "Anchor Max": "0.5195 0.938",
+            "Material": "assets/icons/iconmaterial.mat"
+        },
+        {
+            "Color": "0 0 0 0",
+            "Text Alignment": 4,
+            "Text Font": "robotocondensed-bold.ttf",
+            "Anchor Min": "0.5195 0.875",
+            "Anchor Max": "0.6245 0.942",
+            "Material": "assets/icons/iconmaterial.mat"
+        },
+        {
+            "Color": "0 0 0 0",
+            "Text Alignment": 4,
+            "Text Font": "robotocondensed-bold.ttf",
+            "Anchor Min": "0.6245 0.875",
+            "Anchor Max": "0.7295 0.942",
+            "Material": "assets/icons/iconmaterial.mat"
+        },
+        {
+            "Color": "0 0 0 0",
+            "Text Alignment": 4,
+            "Text Font": "robotocondensed-bold.ttf",
+            "Anchor Min": "0.7295 0.875",
+            "Anchor Max": "0.8395 0.942",
+            "Material": "assets/icons/iconmaterial.mat"
+        },
+        {
+            "Color": "0 0 0 0",
+            "Text Alignment": 4,
+            "Text Font": "robotocondensed-bold.ttf",
+            "Anchor Min": "0.8395 0.875",
+            "Anchor Max": "0.9395 0.942",
+            "Material": "assets/icons/iconmaterial.mat"
+        },
+        {
+            "Color": "0 0 0 0",
+            "Text Alignment": 4,
+            "Text Font": "robotocondensed-bold.ttf",
+            "Anchor Min": "0.041 0.103",
+            "Anchor Max": "0.183 0.179",
+            "Material": "assets/icons/iconmaterial.mat"
+        },
+        {
+            "Color": "0 0 0 0",
+            "Text Alignment": 4,
+            "Text Font": "robotocondensed-bold.ttf",
+            "Anchor Min": "0.201 0.103",
+            "Anchor Max": "0.343 0.179",
+            "Material": "assets/icons/iconmaterial.mat"
+        }
+    ],
+    "VKLink": "ссылка появится позже",
+    "DiscordLink": "https://discord.gg/QTQ77c8g8t",
+    "Quote Source": "https://raw.githubusercontent.com/19Nick74/TLORData/main/TLORQuotes.json",
+    "Buttons": [
+        {
+            "Text": "Открыть магазин",
+            "Url": "https://ruthelastofrust.gamestores.app/"
+        }
+    ]
 }
